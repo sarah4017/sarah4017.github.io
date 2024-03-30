@@ -4,3 +4,4 @@
 so we don't need to keep multiple copies of that code
 3) Some sort of templating would be nice for the rows in educationCourses.html  
     - Is vanilla html capable of this on its own?
+4) Having a common header would be helpful. Wouldn't have to repeat things like the title
