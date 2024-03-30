@@ -1,0 +1,13 @@
+.carousel-img-container {
+    height: 68vh;
+    border: 2px solid black;
+}
+
+.carousel-img-container img {
+    width: 100%;
+    height: auto;
+}
+
+#Name {
+    margin-top: 0px;
+}
