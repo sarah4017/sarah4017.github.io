@@ -145,14 +145,6 @@ table {
   background-color: #333;
 }
 
-.yearsHeader th {
-  border-radius: 10px;
-}
-
-.projectsHeader th {
-  border-radius: 10px;
-}
-
 .yearsContentHeader {
   background-color: var(--blue);
   border-top: solid;
@@ -185,6 +177,7 @@ table {
   cursor: pointer;
 }
 
+
 .projectsHeader {
   height: 10vh;
   color: white;
@@ -194,24 +187,20 @@ table {
   background-color: #333;
 }
 
-.roundedBorderContent {
-  width: 100%;
-  border-radius: 10px;
-  border: 1px solid;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
 .projectsContent {
   height: 6vh;
+  border: solid;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-width: 1px;
   text-align: left;
   padding-bottom: 10px;
 }
 
 .projectsContent2ndLast {
   height: 6vh;
-  /* border: solid;
-  border-width: 1px; */
+  border: solid;
+  border-width: 1px;
 }
 
 .projectsContentLast {
