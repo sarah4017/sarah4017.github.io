@@ -1,23 +1,28 @@
+:root {
+  --blue: rgb(88, 191, 198);
+  --text-color: rgb(52, 68, 69);
+}
+
 body {
   text-align: center;
-  background-color: #ccd2de;
   background-color: white;
 }
 
 .navbar-inverse {
   color: white;
-  background-color: rgb(88, 191, 198) !important;
+  background-color: var(--blue) !important;
   border: 1px solid black;
   margin-left: 2px;
   margin-right: 2px;
 }
 
 .navbar-inverse .navbar-header a {
-  color: white;
+  color: var(--text-color);
 }
 
+
 .navbar-inverse .navHeaderCollapse .nav-item a {
-  color: white;
+  color: var(--text-color);
 }
 
 .nav-item:hover {
@@ -77,7 +82,7 @@ video {
   border: solid;
   border-width: 1px;
   border-radius: 3px;
-  background-color: #e6e6ff;
+  background-color: white;
   margin: 20px;
 }
 
@@ -119,11 +124,11 @@ th {
 
 
 .yearsContent:hover {
-  background-color: #a6abb3;
+  background-color: var(--blue);
 }
 
 .yearsContent2ndLast:hover {
-  background-color: #a6abb3;
+  background-color: var(--blue);
 }
 
 
@@ -141,7 +146,8 @@ table {
 }
 
 .yearsContentHeader {
-  background-color: #a6abb3;
+  background-color: var(--blue);
+  border-top: solid;
   border-right: solid;
   border-left: solid;
   border-width: 1px;
@@ -181,14 +187,6 @@ table {
   background-color: #333;
 }
 
-.projectsContentHeader {
-  background-color: #a6abb3;
-  border-right: solid;
-  border-left: solid;
-  border-width: 1px;
-  height: 8vh;
-}
-
 .projectsContent {
   height: 6vh;
   border: solid;
@@ -207,6 +205,11 @@ table {
 
 .projectsContentLast {
   height: 1vh;
+}
+
+.projectsHeader th {
+  background-color: var(--blue);
+  color: var(--text-color);
 }
 
 .projectsHeader:hover {
@@ -384,7 +387,7 @@ table {
   /* Enable scroll if needed */
   background-color: rgb(0, 0, 0);
   /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.85);
   /* Black w/ opacity */
 }
 
